@@ -30,27 +30,27 @@ path:hover{
     font-family: 'Comfortaa', cursive;
 }
 #tarjeta-arica{
-    top: 70px;
-    left: 650px;
-}
-#tarjeta-tarapaca{
-    top: 80px;
-    left: 620px;
-}
-#tarjeta-antofagasta{
     top: 90px;
     left: 650px;
 }
-#tarjeta-atacama{
+#tarjeta-tarapaca{
+    top:100px;
+    left: 650px;
+}
+#tarjeta-antofagasta{
     top: 100px;
     left: 650px;
 }
-#tarjeta-coquimbo{
+#tarjeta-atacama{
     top: 110px;
     left: 650px;
 }
-#tarjeta-valparaiso{
+#tarjeta-coquimbo{
     top: 130px;
+    left: 650px;
+}
+#tarjeta-valparaiso{
+    top: 170px;
     left: 650px;
 }
 #tarjeta-metropolitana{
@@ -78,11 +78,11 @@ path:hover{
     left: 640px;
 }
 #tarjeta-lagos{
-    top: 200px;
+    top: 240px;
     left: 640px;
 }
 #tarjeta-aisen{
-    top: 220px;
+    top: 240px;
     left: 640px;
 }
 #tarjeta-magallanes{
