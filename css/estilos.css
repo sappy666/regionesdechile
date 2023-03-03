@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap');
+
+body{
+    background-color: beige;
+}
+
+path{
+    fill: black;
+    cursor: pointer;
+}
+path:hover{
+    fill: #74d0e7
+}
+
+.titulo-pagina{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+}
+.tarjeta{
+    position: absolute;
+    display: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: .8rem;
+}
+.card-title{
+    font-weight: 600;
+}
+.card-text2{
+    /* width: 16rem; */
+    font-family: 'Comfortaa', cursive;
+}
+#tarjeta-arica{
+    top: 70px;
+    left: 650px;
+}
+#tarjeta-tarapaca{
+    top: 80px;
+    left: 620px;
+}
+#tarjeta-antofagasta{
+    top: 90px;
+    left: 650px;
+}
+#tarjeta-atacama{
+    top: 100px;
+    left: 650px;
+}
+#tarjeta-coquimbo{
+    top: 110px;
+    left: 650px;
+}
+#tarjeta-valparaiso{
+    top: 130px;
+    left: 650px;
+}
+#tarjeta-metropolitana{
+    top: 130px;
+    left: 650px;
+}
+#tarjeta-ohiggins{
+    top: 190px;
+    left: 650px;
+}
+#tarjeta-maule{
+    top: 200px;
+    left: 650px;
+}
+#tarjeta-biobio{
+    top: 210px;
+    left: 620px;
+}
+#tarjeta-araucania{
+    top: 220px;
+    left: 640px;
+}
+#tarjeta-rios{
+    top: 220px;
+    left: 640px;
+}
+#tarjeta-lagos{
+    top: 200px;
+    left: 640px;
+}
+#tarjeta-aisen{
+    top: 220px;
+    left: 640px;
+}
+#tarjeta-magallanes{
+    top: 300px;
+    left: 640px;
+}
+#tarjeta-nuble{
+    top: 300px;
+    left: 640px;
+}
