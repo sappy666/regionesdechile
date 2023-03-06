@@ -16,80 +16,98 @@ path:hover{
     font-family: 'Comfortaa', cursive;
     font-weight: 600;
 }
-.tarjeta{
+
+/* Carta */
+.carta{
     position: absolute;
     display: none;
+    flex-direction: column;
     font-family: 'Comfortaa', cursive;
     font-size: .8rem;
 }
-.card-title{
+.carta-title{
     font-weight: 600;
 }
-.card-text2{
-    /* width: 16rem; */
+.carta-text{
     font-family: 'Comfortaa', cursive;
 }
-#tarjeta-arica{
-    top: 90px;
-    left: 650px;
+.carta-img{
+object-fit: cover;
+object-position: center;
+width: 16rem;
+height: 16rem;
+border-radius: 50%;
 }
-#tarjeta-tarapaca{
-    top:100px;
-    left: 650px;
-}
-#tarjeta-antofagasta{
-    top: 100px;
-    left: 650px;
-}
-#tarjeta-atacama{
-    top: 110px;
-    left: 650px;
-}
-#tarjeta-coquimbo{
-    top: 130px;
-    left: 650px;
-}
-#tarjeta-valparaiso{
-    top: 170px;
-    left: 650px;
-}
-#tarjeta-metropolitana{
-    top: 130px;
-    left: 650px;
-}
-#tarjeta-ohiggins{
-    top: 190px;
-    left: 650px;
-}
-#tarjeta-maule{
-    top: 200px;
-    left: 650px;
-}
-#tarjeta-biobio{
-    top: 210px;
-    left: 650px;
-}
-#tarjeta-araucania{
-    top: 220px;
-    left: 650px;
-}
-#tarjeta-rios{
-    top: 220px;
-    left: 640px;
-}
-#tarjeta-lagos{
-    top: 240px;
-    left: 640px;
-}
-#tarjeta-aisen{
-    top: 240px;
-    left: 640px;
-}
-#tarjeta-magallanes{
-    top: 300px;
-    left: 640px;
-}
-#tarjeta-nuble{
-    top: 300px;
-    left: 640px;
-}
+
+/* Formulario */
+#form-modificar{
+    font-family: 'Comfortaa', cursive;
+    background-color: #74d0e7;
+    position: fixed;
+    top: 0%;
+    right: 0;
+    transform: translateX(100%);
+    flex-direction: column;
+    transition: transform .5s ease-in-out;
+    padding: 5rem;
+    width: 30rem;
+    height: 100%;
+  }
+
+  #imagen{
+    margin-bottom: 3rem;
+  }
+
+  #form-modificar[data-visible="true"]{
+    display: flex;
+    transform: translate(0%);
+  }
+  .form-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #descripcion{
+    margin-bottom: 2rem;
+  }
+
+  #btn-cerrar-form{
+    cursor: pointer;
+    width: 1.6rem;
+    height: 1.6rem;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+  }
+#btn-submit{
+    border-radius: 24px;
+    align-content: center;
+    align-items: center;
+    color: #3c4043;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    max-width: 80%;
+    padding: 2px 24px;
+    text-align: center;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 10ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform,opacity;
+    z-index: 0; }
+
+    #btn-submit:hover {
+        background: #F6F9FE;
+        color: #74d0e7;
+      }
+
+     .footer{
+        height: 15rem;
+     }
